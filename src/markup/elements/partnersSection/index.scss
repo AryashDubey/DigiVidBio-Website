@@ -1,0 +1,52 @@
+.partner_section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-top: 40px;
+
+  @media (max-width: 768px) {
+    & {
+      margin-bottom: 32px;
+    }
+  }
+  .partner_section_logo_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+    .partner_section_logo_sub_section {
+      align-items: center;
+      justify-content: center;
+
+      @media (max-width: 768px) {
+        & {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+      @media (max-width: 768px) {
+        & {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+      .partner_section_brand_logo:hover {
+        transform: scale(1.1);
+        fill: rgb(var(--rgbPrimary));
+      }
+      .partner_section_brand_logo {
+        height: 120px;
+        width: 200px;
+        align-items: center;
+        margin: 8px 32px;
+        transition-duration: var(--durationM);
+        //background-color: aqua;
+      }
+    }
+  }
+}
