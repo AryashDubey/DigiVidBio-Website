@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.e5d5fa67.css",
-    "main.js": "/static/js/main.db9bc001.js",
-    "static/js/443.8db84fb5.chunk.js": "/static/js/443.8db84fb5.chunk.js",
-    "static/js/787.6cf1df6d.chunk.js": "/static/js/787.6cf1df6d.chunk.js",
+    "main.js": "/static/js/main.4069bec8.js",
+    "static/js/443.ca6a659e.chunk.js": "/static/js/443.ca6a659e.chunk.js",
+    "static/js/787.000ebe67.chunk.js": "/static/js/787.000ebe67.chunk.js",
     "static/media/la-brands-400.svg": "/static/media/la-brands-400.928495fae14841a0d610.svg",
     "static/media/la-solid-900.svg": "/static/media/la-solid-900.a813034654b4ff0a0bac.svg",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.d5b5d90e03b89376f494.svg",
@@ -72,12 +72,12 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "static/media/Video_camera_icon.svg": "/static/media/Video_camera_icon.7fecc9c2f470e31e2bac80dde220371d.svg",
     "main.e5d5fa67.css.map": "/static/css/main.e5d5fa67.css.map",
-    "main.db9bc001.js.map": "/static/js/main.db9bc001.js.map",
-    "443.8db84fb5.chunk.js.map": "/static/js/443.8db84fb5.chunk.js.map",
-    "787.6cf1df6d.chunk.js.map": "/static/js/787.6cf1df6d.chunk.js.map"
+    "main.4069bec8.js.map": "/static/js/main.4069bec8.js.map",
+    "443.ca6a659e.chunk.js.map": "/static/js/443.ca6a659e.chunk.js.map",
+    "787.000ebe67.chunk.js.map": "/static/js/787.000ebe67.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5d5fa67.css",
-    "static/js/main.db9bc001.js"
+    "static/js/main.4069bec8.js"
   ]
 }

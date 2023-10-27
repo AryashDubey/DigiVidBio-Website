@@ -19,7 +19,7 @@ const VideoPortfolioProvider = ({ children }) => {
     setVideoPortfolio(videoPortfolios);
   };
   useEffect(() => {
-    fetchVideoPortfolio();
+    // fetchVideoPortfolio();
   }, []);
 
   const fetchVideoPortfolioBySlug = async (slug) => {

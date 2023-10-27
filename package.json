@@ -1,5 +1,5 @@
 {
-  "name": "MediTro",
+  "name": "digivid",
   "version": "0.1.0",
   "dependencies": {
     "@graphcms/rich-text-react-renderer": "^0.6.1",
