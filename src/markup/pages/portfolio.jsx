@@ -1,14 +1,10 @@
-import React, { Component, useContext } from "react";
 import { Link, useLocation, useParams } from "react-router-dom";
 import styles from "./test.css"; // Import your CSS module
 
 // Import Images
 import bnrImg1 from "../../images/banner/img1.jpg";
-import { VideoPortfolioContext } from "../../data-service/portfolio-video/video-portfolio-context";
 import { useState, useEffect } from "react";
 import { portfolioContent } from "../../data-service/portfolio-video/functions";
-import { Contact } from "./contact-widget";
-import ContactUs from "./contact-us";
 // Team Content
 
 function VideoPortfolio() {
@@ -38,7 +34,6 @@ function VideoPortfolio() {
   }
 
   const [selectedCategory, setSelectedCategory] = useState(null);
-  const { videoPortfolio } = useContext(VideoPortfolioContext);
   const { height, width } = useWindowDimensions();
   const { primaryCategory } = useParams();
   const location = useLocation();
