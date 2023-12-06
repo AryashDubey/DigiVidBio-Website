@@ -1,20 +1,12 @@
-import React, { Component, useContext, useEffect } from "react";
+import React, { useContext, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 
 // Elements
 import AuthorProfile from "../elements/author-profile";
-import CommentList from "../elements/comment-list";
-import CommentRespond from "../elements/comment-respond";
-import WidgetTag from "../elements/widget-tag";
-import WidgetSearch from "../elements/widget-search";
-import WidgetGallery from "../elements/widget-gallery";
 import WidgetRecentPosts from "../elements/widget-recent-posts";
 
 // Import Images
 import bnrImg1 from "../../images/banner/img1.jpg";
-import waveBlue from "../../images/shap/wave-blue.png";
-import circleDots from "../../images/shap/circle-dots.png";
-import plusBlue from "../../images/shap/plus-blue.png";
 
 import { BlogContext } from "../../data-service/blogs/blog-context";
 import { CustomRichTextContentRenderer } from "../../data-service/blogs/RichTextContentRenderer/richTextContentRenderer";
@@ -33,14 +25,17 @@ function BlogDetails(props) {
   return (
     <>
       <div className="page-content bg-white">
-        <div className="banner-wraper">
+        <div className="banner-wrapper">
           <div
             className="page-banner"
             style={{ backgroundImage: "url(" + bnrImg1 + ")" }}
           >
             <div className="container">
               <div className="page-banner-entry text-center">
-                <h1>{selectedBlog?.title ?? ""}</h1>
+                <h1 style={{
+                  marginTop: "2rem",
+                  fontSize: "2.0rem",
+                }}>{selectedBlog?.title ?? ""}</h1>
                 <nav aria-label="breadcrumb" className="breadcrumb-row">
                   <ul className="breadcrumb">
                     <li className="breadcrumb-item">

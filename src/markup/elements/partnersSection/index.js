@@ -13,14 +13,14 @@ export const PartnersSection = () => {
         <div className="partner_section_logo_sub_section">
           <Illumina className="partner_section_brand_logo" />{" "}
           <img
-            src="https://research.ncsu.edu/metric/files/2020/11/Agilent-Technologies-logo.jpg"
+            src="https://media.graphassets.com/output=format:jpg/resize=height:800,fit:max/ZKOtJtBQ431UgtCWFVFg"
             className="partner_section_brand_logo"
             alt="Agilent Technologies"
           />
         </div>
         <div className="partner_section_logo_sub_section">
           <img
-            src="https://cdn.cookielaw.org/logos/fcbe7ec9-f74a-4af1-9be6-e0726dcc9df6/baaab0cf-0f35-4a8c-8910-1fb31bcfd73a/518220b0-6a7b-4ace-94d9-0288bb5e308f/logo-helix.png"
+            src="https://media.graphassets.com/output=format:jpg/resize=height:800,fit:max/J1Xz5MKR3ivjAO1PkXgO"
             alt="Helix"
             className="partner_section_brand_logo"
             style={{
@@ -28,7 +28,7 @@ export const PartnersSection = () => {
             }}
           />
           <img
-            src="https://mma.prnewswire.com/media/2166479/T_BCT_Stack_CMYK_Large.jpg?p=facebook"
+            src="https://media.graphassets.com/output=format:jpg/resize=height:800,fit:max/gLtn2UwSOHeFehFTl7nQ"
             alt="Helix"
             className="partner_section_brand_logo"
             style={{
@@ -38,14 +38,14 @@ export const PartnersSection = () => {
         </div>
         <div className="partner_section_logo_sub_section">
           <img
-            src="https://ef4hea9dc2b.exactdn.com/wp-content/uploads/2015/09/Myriad-Logo-lowRes.png"
+            src="https://media.graphassets.com/output=format:jpg/resize=height:800,fit:max/Qt9WwwjoTmygjYirjkaj"
             alt="10x Genomics"
             className="partner_section_brand_logo" style={{
               objectFit: "contain",
             }}
           />
           <img
-            src="https://mma.prnewswire.com/media/286881/Natera_Inc___Logo.jpg?p=facebook"
+            src="https://media.graphassets.com/output=format:jpg/resize=height:800,fit:max/jbNVCm0SdG3bPXc3rowA"
             alt="10x Genomics"
             className="partner_section_brand_logo" style={{
               objectFit: "contain",

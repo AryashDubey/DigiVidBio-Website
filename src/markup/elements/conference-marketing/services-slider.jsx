@@ -88,7 +88,7 @@ class ConferenceMarketingServicesDetails extends Component {
                 <ConferenceMarketingSlide
                   title="Conference Digital Marketing"
                   points={["Geo-fencing Conference", "30 Days Re-targeting"]}
-                  image="https://media.licdn.com/dms/image/D4E22AQEBHlVWUJKx8A/feedshare-shrink_800/0/1694617903489?e=1698883200&v=beta&t=EEMBaV_xNGF8vtR9IlohUx4hpxQ21otxTJKATiOOHRU"
+                  image="https://media.graphassets.com/Y1pvnkhCRBWsxstpBJ3y"
                   price="$10K-$20K"
                 />
               </Slider>

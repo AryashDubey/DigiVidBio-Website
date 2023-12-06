@@ -93,6 +93,11 @@ class aboutSection extends Component {
                           <span>About Us</span>
                         </Link>
                       </li>
+                      <li>
+                        <Link to="/privacy-policy">
+                          <span>Privacy Policy</span>
+                        </Link>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -106,7 +111,7 @@ class aboutSection extends Component {
                         </Link>
                       </li>
                       <li>
-                        <Link to="/blog-grid">
+                        <Link to="/blogs">
                           <span>Blogs</span>
                         </Link>
                       </li>

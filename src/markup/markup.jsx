@@ -13,9 +13,8 @@ import Footer from "./layout/footer";
 import Index from "./pages/index";
 import AboutUs from "./pages/about-us";
 import Team from "./pages/team";
-import FormLogin from "./pages/form-login";
-import FormRegister from "./pages/form-register";
-import FormForgetPassword from "./pages/form-forget-password";
+import PrivacyPolicy from "./pages/privacy-policy";
+import ErrorPage from "./pages/error-404";
 import Faq from "./pages/faq";
 import ContactUs from "./pages/contact-us";
 import Booking from "./pages/booking";
@@ -27,6 +26,7 @@ import CaseStudy from "./pages/case-study";
 import CaseStudyDetails from "./pages/case-study-details";
 import AIInsights from "./pages/ai-insights";
 import DigitalMarketingPage from "./pages/digital-media";
+import Auditions from "./pages/auditions";
 const BlogDetailPage = lazy(() => import("./pages/blog-details"));
 
 class Markup extends Component {
@@ -50,7 +50,7 @@ class Markup extends Component {
               <Route path="/faq" element={<Faq />} />
               <Route path="/contact-us" element={<ContactUs />} />
               <Route path="/booking" element={<Booking />} />
-              <Route path="/blog-grid" element={<BlogGrid />} />
+              <Route path="/blogs" element={<BlogGrid />} />
               <Route path="/ai" element={<AIInsights />} />
               <Route
                 exact
@@ -88,6 +88,9 @@ class Markup extends Component {
                   </React.Suspense>
                 }
               />
+              <Route path="/auditions" element={<Auditions />} />
+              <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+              <Route path="*" element={<ErrorPage />} />
             </Route>
           </Routes>
 

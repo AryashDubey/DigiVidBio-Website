@@ -9,7 +9,7 @@ import { BlogContext } from "../../data-service/blogs/blog-context";
 import { formatDate } from "../../data-service/backend-functions/helpers";
 
 const NewsItem = ({ item, setSelectedBlog }) => {
-  const blogLink= `/blogs/${item.slug}`;
+  const blogLink = `/blogs/${item.slug}`;
   return (
     <div
       className="slider-item"
@@ -39,10 +39,7 @@ const NewsItem = ({ item, setSelectedBlog }) => {
           <h5 className="post-title">
             <Link to={blogLink}>{item.title}</Link>
           </h5>
-          <Link
-            to={blogLink}
-            className="btn btn-outline-primary btn-sm"
-          >
+          <Link to={blogLink} className="btn btn-outline-primary btn-sm">
             Read More <i className="btn-icon-bx fas fa-chevron-right"></i>
           </Link>
         </div>
@@ -54,9 +51,12 @@ const NewsItem = ({ item, setSelectedBlog }) => {
 const settings = {
   dots: false,
   infinite: true,
-  speed: 1000,
+  autoplay: true,
+  duration: 500,
+
+  speed: 500,
   slidesToShow: 3,
-  slidesToScroll: 1,
+  slidesToScroll: 3,
   responsive: [
     {
       breakpoint: 1191,
@@ -103,7 +103,6 @@ function LatestNewsSection() {
               />
             ))}
           </Slider>
-          
         </div>
 
         {/* <img className="pt-img1 animate1" src={animate1} alt=""/>

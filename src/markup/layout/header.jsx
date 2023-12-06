@@ -77,13 +77,18 @@ const Header = () => {
     {
       id: "blog",
       name: "Digital Media",
-      linkName: "/digital-media",
+      linkName: "digital-media",
+    },
+    {
+      id: "insights",
+      name: "Insights",
+      linkName: "#",
 
       subItems: [
         {
           id: "blogGrid",
           displayName: "Blogs",
-          linkName: "blog-grid",
+          linkName: "blogs",
         },
         {
           id: "case-study",
@@ -94,10 +99,8 @@ const Header = () => {
     },
     {
       id: "contactUs",
-      name: "AI & Insights",
+      name: "AI",
       linkName: "ai",
-      
-      
     },
     {
       id: "about",

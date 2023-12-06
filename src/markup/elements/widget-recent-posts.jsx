@@ -11,7 +11,7 @@ function WidgetRecentPosts() {
   const blogContext = useContext(BlogContext);
   const { blogs } = blogContext;
 
-  if(!blogs) return (<></>);
+  if (!blogs) return <></>;
   return (
     <>
       <div className="widget recent-posts-entry">
@@ -19,7 +19,8 @@ function WidgetRecentPosts() {
         <div className="widget-post-bx">
           {blogs.slice(0, 3).map((blog) => RecentPostWidget(blog))}
         </div>
-      </div>
+      </div>{" "}
+      <a href="/blogs">View All Blogs</a>
     </>
   );
 }

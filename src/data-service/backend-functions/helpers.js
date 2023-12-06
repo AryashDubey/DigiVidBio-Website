@@ -25,3 +25,4 @@ export function formatDate(inputDate) {
 
     return formattedDate;
   }
+  

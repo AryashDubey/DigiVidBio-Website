@@ -64,7 +64,7 @@ function BlogGrid() {
             <div className="row">
               {blogs.map((blogPost, index) => BlogGridItem(index, blogPost))}
             </div>
-            <div className="row">
+            {/* <div className="row">
               <div className="col-lg-12">
                 <div className="pagination-bx text-center mb-30 clearfix">
                   <ul className="pagination">
@@ -86,7 +86,7 @@ function BlogGrid() {
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
       </div>
